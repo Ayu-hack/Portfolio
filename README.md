@@ -4,7 +4,6 @@ This repository contains the code for Ayush Tiwari's portfolio website. The webs
 
 ## Features
 
-### General Features
 - **Responsive Design**: Ensures optimal viewing experience across a wide range of devices.
 - **Clean and Modern UI**: Minimalist design with a focus on readability and user experience.
 

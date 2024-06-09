@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Tiwari Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero" id="home">
+        <div class="hero-content">
+            <h1>👋 Hi, I'm Ayush Tiwari.</h1>
+            <p>"Hard work beats talent when talent doesn't work hard." - Tim Notke</p>
+            <p>A recent graduate with a passion for data analysis and web development. With strong skills in SQL, HTML, CSS, and Python, I enjoy creating elegant and efficient solutions to complex problems. My experience includes developing AI chatbots, conducting comprehensive data analysis, and building responsive web applications. I thrive in both collaborative and independent work environments and am always eager to learn and take on new challenges.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </div>
+    <main>
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <div class="skills-buttons">
+                <button>SQL</button>
+                <button>HTML & CSS</button>
+                <button>Python</button>
+                <button>Power BI</button>
+                <button>Data Analysis</button>
+                <button>Web Development</button>
+                <button>Technical Support</button>
+            </div>
+        </section>
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Portfolio Page</h3>
+                <p>Designed and built a personal portfolio website to showcase my projects and skills using HTML and CSS. The project highlights my web development skills and attention to detail in creating a modern, user-friendly interface.</p>
+            </div>
+            <div class="project">
+                <h3>AI Chat-bot on Telegram</h3>
+                <p>Developed an AI chatbot on Telegram using Python, integrated with the Telegram API. The chatbot is capable of handling user queries, providing automated responses, and demonstrating my ability to work with APIs and machine learning algorithms.</p>
+            </div>
+            <div class="project">
+                <h3>Sales Data Analysis</h3>
+                <p>Conducted a comprehensive analysis of sales data using Power BI to create interactive dashboards and reports. This project showcases my data analysis skills and proficiency in using BI tools to derive actionable insights from complex data sets.</p>
+            </div>
+            <div class="project">
+                <h3>Library Management System</h3>
+                <p>Created a library management system using SQL and Python to manage book inventories, member registrations, and borrowing activities. This project demonstrates my database management skills and ability to develop functional applications for real-world scenarios.</p>
+            </div>
+            <div class="project">
+                <h3>Online Store</h3>
+                <p>Developed an e-commerce website using HTML, CSS, and JavaScript, featuring product listings, shopping cart functionality, and a checkout process. This project highlights my web development skills and understanding of e-commerce workflows.</p>
+            </div>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:ayushtiwari2100@gmail.com">ayushtiwari2100@gmail.com</a></p>
+            <p>Phone: +917985130055</p>
+            <p><a href="http://www.linkedin.com/in/ayush-tiwari02" target="_blank">LinkedIn Profile</a></p>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ayush Tiwari</p>
+        </div>
+    </footer>
+</body>
+</html>

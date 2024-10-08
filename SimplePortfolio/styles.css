@@ -37,11 +37,26 @@ section {
     margin: 10px 0;
     padding: 15px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .project-card:hover {
     background: #f9f9f9;
     border: 1px solid #aaa;
+    transform: scale(1.02);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #35424a;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5a6970;
 }
 
 footer {

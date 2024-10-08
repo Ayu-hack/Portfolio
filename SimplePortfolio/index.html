@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,9 +11,9 @@
         <h1>Welcome to My Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills" onclick="smoothScroll('#skills')">Skills</a></li>
+                <li><a href="#projects" onclick="smoothScroll('#projects')">Projects</a></li>
+                <li><a href="#contact" onclick="smoothScroll('#contact')">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -21,19 +21,19 @@
     <section id="hero">
         <h2>About Me</h2>
         <p>Hello! I'm a passionate developer skilled in various technologies.</p>
-        <p>"Building a better future through code."</p> <!-- Your quote or tagline here -->
+        <p>"Building a better future through code."</p>
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
-        <button>ReactJS</button>
-        <button>SQL</button>
-        <button>HTML & CSS</button>
-        <button>Python</button>
-        <button>Power BI</button>
-        <button>Data Analysis</button>
-        <button>Web Development</button>
-        <button>Technical Support</button>
+        <button onmouseover="highlightSkill(this)" onmouseout="removeHighlight(this)">ReactJS</button>
+        <button onmouseover="highlightSkill(this)" onmouseout="removeHighlight(this)">SQL</button>
+        <button onmouseover="highlightSkill(this)" onmouseout="removeHighlight(this)">HTML & CSS</button>
+        <button onmouseover="highlightSkill(this)" onmouseout="removeHighlight(this)">Python</button>
+        <button onmouseover="highlightSkill(this)" onmouseout="removeHighlight(this)">Power BI</button>
+        <button onmouseover="highlightSkill(this)" onmouseout="removeHighlight(this)">Data Analysis</button>
+        <button onmouseover="highlightSkill(this)" onmouseout="removeHighlight(this)">Web Development</button>
+        <button onmouseover="highlightSkill(this)" onmouseout="removeHighlight(this)">Technical Support</button>
     </section>
 
     <section id="projects">
@@ -47,17 +47,17 @@
             <p>A brief description of project 2.</p>
         </div>
     </section>
-        
 
     <section id="contact">
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>
-        <p>Email: jangalepratik31@gmail.com</p> <!-- Your email -->
+        <p>Email: jangalepratik31@gmail.com</p>
     </section>
 
     <footer>
         <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

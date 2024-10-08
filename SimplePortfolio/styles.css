@@ -1,64 +1,163 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    transition: background-color 0.5s ease;
 }
 
+body:hover {
+    background-color: #e6e6e6;
+}
+
+/* Header */
 header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px 0;
+    background: linear-gradient(to right, #35424a, #1f8ea1);
+    color: #fff;
+    padding: 30px 0;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-section {
-    padding: 20px;
+nav ul li a:hover {
+    color: #1f8ea1;
+    transform: scale(1.1);
 }
 
+/* Hero Section */
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    padding: 100px 20px;
+    color: #fff;
+    text-align: center;
+    animation: fadeIn 2s ease;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    max-width: 700px;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    animation: fadeInUp 1.5s ease;
+}
+
+#skills h2 {
+    margin-bottom: 30px;
+    font-size: 2.2em;
+}
+
+button {
+    background-color: #1f8ea1;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for skills buttons */
+button:hover {
+    transform: scale(1.1);
+    background-color: #16a085; /* Change to a different color on hover */
+}
+
+/* About Me Section */
+#hero h2 {
+    color: #e91e63; /* Change the text color */
+}
+
+#hero p {
+    background-color: #fefefe; /* Slight contrast with white background */
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
 .project-card {
     background: #ffffff;
     border: 1px solid #ddd;
     margin: 10px 0;
     padding: 15px;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
+    transform: translateY(-10px);
     background: #f9f9f9;
-    border: 1px solid #aaa;
-    transform: scale(1.02);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
-button {
+/* Show More Details Button */
+.show-more {
+    background-color: #1f8ea1;
+    color: white;
     padding: 10px 20px;
-    background-color: #35424a;
-    color: #ffffff;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    text-align: center;
 }
 
-button:hover {
-    background-color: #5a6970;
+.show-more:hover {
+    background-color: #16a085; /* Change color on hover */
+    transform: scale(1.05);
 }
 
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;

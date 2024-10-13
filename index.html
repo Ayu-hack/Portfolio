@@ -97,8 +97,14 @@
             </div>
         </section>
         <div class="container">
-            <p>&copy; 2024 Ayush Tiwari</p>
+            <p>&copy; <span id="year"></span> Ayush Tiwari</p>
         </div>
     </footer>
 </body>
+<script>
+const currentYear = new Date().getFullYear();
+
+document.getElementById('year').innerText = currentYear;
+
+</script>
 </html>

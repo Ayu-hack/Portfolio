@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayush Tiwari Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js" ></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         /* Additional styles can be added inline if needed */
@@ -19,6 +21,7 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <button id="theme-toggle" class="theme-toggle theme-button" onclick="toggleTheme()"><i id="theme-icon" class="fas fa-cog"></i> </button>          
         </nav>
     </header>
     <div class="hero" id="home">
@@ -28,6 +31,20 @@
             <p>A recent graduate with a passion for data analysis and web development. With strong skills in SQL, HTML, CSS, and Python, I enjoy creating elegant and efficient solutions to complex problems. My experience includes developing AI chatbots, conducting comprehensive data analysis, and building responsive web applications. I thrive in both collaborative and independent work environments and am always eager to learn and take on new challenges.</p>
             <a href="#projects" class="btn">View My Work</a>
         </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="hero-picture" src="profile_pic.avif" alt="Profile-Picture" >
+              </div>
+              <div class="flip-card-back">
+                <h1>Ayush Tiwari</h1>
+                <p>Data Analyst</p>
+                <p>Web Developer</p>
+                <p>Python</p>
+                <p>Tech Enthusiast</p>
+              </div>
+            </div>
+          </div>
     </div>
     <main>
         <section id="skills" class="container">
